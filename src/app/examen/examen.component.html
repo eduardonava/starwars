@@ -1,0 +1,15 @@
+<div>
+    <!-- NOMBREA A BUSCAR {{todos | json}} -->
+    personas a buscar
+    <P *ngFor="let item of todos.results;">
+        {{item.name}}
+    </P>
+
+</div>
+
+///////////////////////////////////////////
+
+<P>NOMBRE {{ resultado.name }}</P>
+<P>COLOR DE CADELLO {{ resultado.hair_color}}</P>
+<P>COLOR DE OJOS: {{resultado.eye_color}}</P>
+<P>CUMPLEAÑOS: {{ resultado.birth_year}}</P>
